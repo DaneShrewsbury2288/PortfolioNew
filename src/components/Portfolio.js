@@ -17,12 +17,13 @@ export default class Porfolio extends Component {
                 return (
                   <div key={project.name}>
                     <div className="columns project-card">
+                      <h5>{project.name} </h5>
                       <a href={project.modal} className="has-popup-media">
                         <img src={`${project.imgurl}`} className="project-img" alt="" height="300px" />
                       </a>
                         <div className="overlay">
                           <div className="portfolio-item-meta">
-                            <h5>{project.name} </h5>
+                            
                             <h5 className="link"> <a href={project.link}> Demo </a></h5>
                             <h5 className="sourceCode"> <a href={project.sourceCode}> Source Code </a></h5>
                           </div>

@@ -263,6 +263,7 @@ ul#nav li.current a { color: white; }
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   margin-top: 10px;
 }
 
 #resume .header-col { padding-top: 9px; }

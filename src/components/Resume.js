@@ -15,7 +15,7 @@ export default class Resume extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3> Resume </h3>
+                <h3><a href="https://drive.google.com/open?id=1Ze_n5MiVxzvStePHdmlOvt9OKkQI1J6C">Resume </a></h3>
               </div>
             </div>
 

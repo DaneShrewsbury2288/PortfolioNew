@@ -246,7 +246,10 @@ ul#nav li.current a { color: white; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { 
+   color: #313131;
+   padding-top: 10px;
+ }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -343,6 +346,10 @@ ul#nav li.current a { color: white; }
    text-transform: uppercase;
    color: black;
    text-decoration: none;
+}
+
+#portfolio a {
+   color: black;
 }
 
  

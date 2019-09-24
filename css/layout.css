@@ -250,6 +250,11 @@ ul#nav li.current a { color: white; }
    color: #313131;
    padding-top: 10px;
  }
+
+ #resume p {
+    margin: 0;
+ }
+
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -263,7 +268,7 @@ ul#nav li.current a { color: white; }
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
-   margin-top: 10px;
+   margin-top: 30px;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -277,7 +282,7 @@ ul#nav li.current a { color: white; }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 18px;
+   margin-bottom: 12px;
    margin-top: 9px;
 }
 #resume .info span {

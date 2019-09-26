@@ -140,7 +140,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color:#31b0d5; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -161,9 +161,6 @@ ul#nav li {
 
 /* Links */
 ul#nav li a {
-
-/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-
    display: inline-block;
    padding: 8px 13px;
    line-height: 32px;
@@ -187,61 +184,57 @@ ul#nav li.current a { color: white; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
-   padding-top: 50px;
-   padding-bottom: 66px;
+   background: url(../images/bg.png) repeat;
    overflow: hidden;
+   padding-top: 50px;
+   padding-bottom: 60px;
 }
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/26px 'opensans-bold', sans-serif;
-   color: white;
+   font: 22px/24px 'opensans-bold', sans-serif;
+   margin-left: 45%;
+   color: black;
    text-transform: uppercase;
    letter-spacing: 1px;
    margin-bottom: 50px;
-  
 }
+
+#about h2 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
+#about h3 {
+  border-left: 5px solid  #795548;
+  padding-left: 1.5rem;
+  margin-bottom: 20px;
+}
+
+
 #about p {
+   margin-left: 5px;
+   font-size: 22px;
    line-height: 40px;
    color: #7A7A7A;
    margin-bottom: 15px;
 }
-#about .profile-pic {
-   position: relative;
-   width: 300px;
-   height: 300px;
-   border-radius: 100%;
-}
-#about .contact-details { width: 41.66667%; }
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
-}
-#about .main-col { padding-right: 5%; }
-#about .download .button {
-   margin-top: 6px;
-   background: #444;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
-}
 
+#about p strong {
+   font: 26px 'Roboto', sans-serif;
+   font-weight: 500;
+   color: black;
+}
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
-   padding-top: 90px;
+   background: url(../images/bg.png) repeat;
+   padding-top: 30px;
    padding-bottom: 72px;
    overflow: hidden;
 }
@@ -250,19 +243,38 @@ ul#nav li.current a { color: white; }
    color: #313131;
    padding-top: 10px;
  }
+
+ #resume p {
+    margin: 0;
+ }
+
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 22px/24px 'opensans-bold', sans-serif;
+   margin-left: 40%;
    text-transform: uppercase;
    letter-spacing: 1px;
+   margin-bottom: 50px;
 }
+
 #resume h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
+
+#resume h2 span {
+   margin-left: 10%;
+   font: 22px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   margin-top: 30px;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -271,12 +283,11 @@ ul#nav li.current a { color: white; }
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 18px;
+   margin-bottom: 12px;
    margin-top: 9px;
 }
 #resume .info span {
@@ -308,13 +319,14 @@ ul#nav li.current a { color: white; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: url(../images/bg.png) repeat;
    padding-top: 50px;
    padding-bottom: 50px;
 }
 
 #portfolio h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 22px/24px 'opensans-bold', sans-serif;
+   margin-left: 40%;
    text-transform: uppercase;
    letter-spacing: 1px;
    margin-bottom: 50px;
@@ -331,35 +343,53 @@ ul#nav li.current a { color: white; }
 
 #portfolio .project-img {
    flex: 1 0 auto;
-   height: 150px;
-   width: 225px;
+   height: 210px;
+   width: 300px;
+ }
+
+ .flippy-card {
+    padding:0;
  }
 
 #portfolio .project-card {
-   padding: 10px;
+   padding: 5px;
    width: 300px;
    text-align: center;
 }
 
 #portfolio h5 {
-   font: 16px/20px 'opensans-bold', sans-serif;
+   font: 20px/22px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    color: black;
    text-decoration: none;
+   margin-bottom: 10px;
+}
+
+#portfolio .link {
+   position: absolute;
+   bottom: 0;
+   left: 170px;
+   color: black;
+}
+
+#portfolio .sourceCode {
+   position: absolute;
+   bottom: 0;
+   left: 230px;
+   color: black;
+}
+
+#portfolio p {
+   color: black;
+   margin-bottom: 0;
+   height: 120px;
+   font: 16px 'opensans-bold', sans-serif;
 }
 
 #portfolio a {
    color: black;
+   font: 16px 'opensans-bold', sans-serif;
 }
-
- 
- .project-image img {
-   display: block;
-   height: 300px;
-   width: 300px;
-   border-top-left-radius: 5px;
-   border-bottom-left-radius: 5px;
- }
  
  .project-content {
    flex: 1 1 auto;
@@ -521,25 +551,6 @@ ul#nav li.current a { color: white; }
    position: relative;
    left: 18px;
    top: 17px;
-}
-
-
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
 }
 
 

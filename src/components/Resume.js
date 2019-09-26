@@ -7,40 +7,30 @@ export default class Resume extends Component {
       <section id="resume">
 
         <div className="row education">
-
-          <div className="three columns header-col">
-            <h1><span> Full Resume Link </span></h1>
+          <div className="twelve columns header-col">
+            <h1><span><a href="https://drive.google.com/open?id=1ORmk7nrTl4gG5CeHbXJTbCtEpGrsNcvk" id="ResumeLink"> Full Resume </a></span></h1>
           </div>
-
-          <div className="nine columns main-col">
-            <div className="row item">
-              <div className="twelve columns">
-                <h3><a href="https://drive.google.com/open?id=1Ze_n5MiVxzvStePHdmlOvt9OKkQI1J6C">Resume </a></h3>
-              </div>
-            </div>
-
         </div>
-      </div>
 
-        <div className="row education">
+        {/* <div className="row education">
 
           <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h2><span>Education</span></h2>
           </div>
 
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3> University Of Washington - Seattle - Code Boot Camp </h3>
+                <h3> University Of Washington - Code Boot Camp </h3>
                 <p className="info">
                   Full Stack Web Development
                   <span>&bull;</span> <em className="date"> 03 / 2019 - 09 / 2019</em></p>
-                <p>
-                  Certificate of Completion
-                </p>
+                <p> Full Stack Web Development specializing in the MERN stack </p>
+                <p> Certificate of Completion </p>
               </div>
             </div>
           </div>
+
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
@@ -54,13 +44,14 @@ export default class Resume extends Component {
               </div>
             </div>
           </div>
+
         </div>
 
 
         <div className="row work">
 
           <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h2><span>Work</span></h2>
           </div>
 
 
@@ -71,13 +62,17 @@ export default class Resume extends Component {
                 <p className="info">
                   University of Washington - Seattle
                   <span>&bull;</span> <em className="date"> 09 / 2019 - Present </em></p>
-                <p>
-                  I am a TA for the next session of the University Of Washington Code Boot Camp for Full Stack Web Development.
-                </p>
+                <p> Teaching Assistant for University of Washington - Seattle Full Stack Web Development </p>
+                <p> Focused on: </p>
+                <ul>
+                  <li>  Design Patterns - MVP, MVC, Rest </li>
+                  <li>  Front End: HTML, CSS, Javascript, Bootstrap, Jquery, React </li>
+                  <li>  Back End: Node.js, Express, Redux </li>
+                  <li>  Database - MySQL, Sequelize, Mongodb, Mongoose, APIs </li>
+                </ul>
               </div>
             </div>
           </div>
-
 
           <div className="nine columns main-col">
             <div className="row item">
@@ -96,14 +91,14 @@ export default class Resume extends Component {
                   </ul>
               </div>
             </div>
-          </div>
+          </div> */}
 
-        </div>
+        {/* </div> */}
 
         <div className="row skill">
 
           <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h2><span>Skills</span></h2>
           </div>
 
           <div className="nine columns main-col">
@@ -117,10 +112,10 @@ export default class Resume extends Component {
               <li className="li-skills">Ajax</li>
               <li className="li-skills">Express.js</li>
               <li className="li-skills">MySQL</li>
-              <li className="li-skills">Mongodb</li>
+              <li className="li-skills">MongoDB</li>
               <li className="li-skills">Mongoose</li>
               <li className="li-skills">Node.js</li>
-              <li className="li-skills">React</li>
+              <li className="li-skills">React.js</li>
               <li className="li-skills">Redux</li>
               <li className="li-skills">Java</li>
 

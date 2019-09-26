@@ -351,8 +351,9 @@ ul#nav li.current a { color: white; }
     padding:0;
  }
 
-#portfolio .project-card {
+#portfolio .columns .project-card {
    padding: 5px;
+   margin-bottom: 20px;
    width: 300px;
    text-align: center;
 }
@@ -559,8 +560,7 @@ ul#nav li.current a { color: white; }
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
+   padding-top: 20px;
    color: #303030;
    font-size: 14px;
    text-align: center;

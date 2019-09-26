@@ -12,7 +12,7 @@
 
 This is an updated portfolio using React. 
 
-Portfolio Link: https://shielded-retreat-69523.herokuapp.com/
+Portfolio Link: https://daneshrewsbury2288.github.io/PortfolioNew/
 
 ![Image](/public/images/Portfolio.png)
 
